@@ -1,4 +1,16 @@
+/*makes a border around table, changes font, and background color*/
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    background-color: #C6C3C3;
+    font-family: helvetica;
+}
+/*Changed color of headings in table*/
+th{
+  background-color: #6C6B6B;
+}
+/*changed font and alignment of heading over table*/
+h2{
+  font-family: monospace;
+  text-align: center;
 }

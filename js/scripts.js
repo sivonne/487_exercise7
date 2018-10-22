@@ -17,7 +17,7 @@ $(document).ready(function(){
     async: true,
     success: function(grants){
       //set up column names
-      html += '<tr><th>The Project Title</th><th>Year Awarded</th><th>Original Amount</th><th>Grant Description (ToSupport)</th></tr>';
+      html += '<tr><th>The Project Title</th><th>Year Awarded</th><th>Original Amount</th><th>Grant Description</th></tr>';
       //get the data from xml file and build table with it
     $(grants).find('Grant').each(function(){
         projectTitle = $(this).find('ProjectTitle').text();
